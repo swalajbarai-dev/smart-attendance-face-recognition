@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+
+data/attendance/*.csv
+data/known_faces/*
+data/students.json
+
+!data/known_faces/.gitkeep
+!data/attendance/.gitkeep
